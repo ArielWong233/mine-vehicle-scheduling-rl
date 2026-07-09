@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect class="bg" width="1200" height="675"/>
+
+<style>
+  .bg { fill: #ffffff; }
+  .title { font-family: Arial, Helvetica, sans-serif; font-size: 28px; font-weight: 700; fill: #111827; }
+  .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 16px; fill: #4B5563; }
+  .label { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #111827; font-weight: 600; }
+  .small { font-family: Arial, Helvetica, sans-serif; font-size: 12px; fill: #4B5563; }
+  .box { fill: #F8FAFC; stroke: #2563EB; stroke-width: 2; }
+  .box2 { fill: #F0FDF4; stroke: #10B981; stroke-width: 2; }
+  .box3 { fill: #FFFBEB; stroke: #F59E0B; stroke-width: 2; }
+  .box4 { fill: #F5F3FF; stroke: #7C3AED; stroke-width: 2; }
+  .line { stroke: #374151; stroke-width: 2.4; fill: none; marker-end: url(#arrow); }
+  .dash { stroke: #9CA3AF; stroke-width: 2; stroke-dasharray: 6 5; fill: none; marker-end: url(#arrow-gray); }
+  .section { font-family: Arial, Helvetica, sans-serif; font-size: 13px; fill: #2563EB; font-weight: 700; letter-spacing: 1px; }
+</style>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+  </marker>
+  <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#9CA3AF"/>
+  </marker>
+</defs>
+
+<text class="title" x="600" y="58" text-anchor="middle">Learning-based Scheduling for Autonomous Mine Transportation</text>
+<text class="subtitle" x="600" y="88" text-anchor="middle">AI-driven intelligent transportation · reinforcement learning · traffic intelligence</text>
+<rect class="box" x="430" y="130" width="340" height="72" rx="14" ry="14"/>
+<text class="label" x="600.0" y="161" text-anchor="middle">Autonomous Mine Vehicles</text>
+<rect class="box" x="430" y="235" width="340" height="72" rx="14" ry="14"/>
+<text class="label" x="600.0" y="266" text-anchor="middle">Real-time Positioning</text>
+<text class="label" x="600.0" y="285" text-anchor="middle">Trajectory Streams</text>
+<rect class="box2" x="430" y="340" width="340" height="72" rx="14" ry="14"/>
+<text class="label" x="600.0" y="371" text-anchor="middle">Traffic Intelligence</text>
+<text class="label" x="600.0" y="390" text-anchor="middle">State Recognition</text>
+<rect class="box3" x="430" y="445" width="340" height="72" rx="14" ry="14"/>
+<text class="label" x="600.0" y="476" text-anchor="middle">Reinforcement Learning</text>
+<text class="label" x="600.0" y="495" text-anchor="middle">Scheduler</text>
+<rect class="box4" x="430" y="550" width="340" height="72" rx="14" ry="14"/>
+<text class="label" x="600.0" y="581" text-anchor="middle">Scheduling Decision</text>
+<text class="label" x="600.0" y="600" text-anchor="middle">Transportation Optimization</text>
+<path class="line" d="M600,202 L600,235"/>
+<path class="line" d="M600,307 L600,340"/>
+<path class="line" d="M600,412 L600,445"/>
+<path class="line" d="M600,517 L600,550"/>
+<text class="section" x="155" y="280" text-anchor="middle">Perception Layer</text>
+<path class="dash" d="M260,270 L420,270"/>
+<text class="section" x="1025" y="490" text-anchor="middle">Decision Layer</text>
+<path class="dash" d="M780,480 L935,480"/>
+
+</svg>
